@@ -18,10 +18,10 @@ export default function Home() {
   },[]);
 
   return (
-    <>
+    
       <div className='home' id="home"> 
        
-       <div className="home-info">
+      <div className="home-info"> 
 
         <div className="text-info">
           <h2>Hi there, I'm </h2>
@@ -30,12 +30,11 @@ export default function Home() {
         </div>
 
        <div className="learn-more">
-       <a href="#" class="next"> Learn More &raquo;</a>
-
-         </div> 
-      </div>
+       <a href="/about" class="next"> Learn More &raquo;</a>
+       </div>
       
       </div>
-    </>
+      </div>
+    
   );
 }
