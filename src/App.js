@@ -10,6 +10,7 @@ import SignUp from './components/pages/SignUp';
 import Professional from './components/pages/Professional';
 
 
+
 function App() {
   return (
     <Router>
