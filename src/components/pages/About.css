@@ -1,0 +1,97 @@
+/*-----About page----*/
+
+.about-container {
+    padding: 20px;
+    position: relative;
+    
+}
+  
+
+  
+  .about-left {
+    background-color: transparent;
+    
+    
+  }
+  
+  .nested {
+    display: flex;
+    background-color: transparent;
+    
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+  }
+
+  .nested .card {
+        background: transparent;
+        height: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: wrap;
+        color: crimson;
+        width: calc(33% - 20px);
+  }
+
+  .nested .card .circle {
+      height: 150px;
+      width: 150px;
+      border: 8px solid #fa4299;
+      border-radius: 50%;
+      position: relative;
+      cursor: pointer;
+  }
+
+  .card .circle .box,
+  .card .circle .box span {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+  }
+
+  .card .circle .box {
+      height: 60%;
+      width: 60%;
+      background: transparent;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+  }
+
+  .card .circle:hover .box {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+
+  .card .circle .box span {
+      font-size: 40px;
+      font-weight: 600;
+      font-family: 'PT Sans', sans-serif;
+      transform: translate(-45%, -50%);
+      background: salmon;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+
+  }
+
+  .card .circle:hover .box span {
+    transform: translate(-45%, -50%) scale(1.09);
+  }
+
+  .card .text {
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  
+  p {
+    font-size: 18px;
+  }
+
