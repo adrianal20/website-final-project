@@ -1,0 +1,19 @@
+.education-container {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+}
+.scoala-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.education-left {
+    background: turquoise;
+}
+
+.education-right {
+    background: tomato;
+}
