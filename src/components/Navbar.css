@@ -45,7 +45,7 @@
   }
   
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: crimson;
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
@@ -95,7 +95,7 @@
     }
   
     .nav-links:hover {
-      background-color: #1888ff;
+      background-color: crimson;
       border-radius: 0;
     }
   
@@ -141,7 +141,7 @@
     }
   
     button {
-      color: #2b2d30;
+      color: crimson;
       display: none;
     }
   }
