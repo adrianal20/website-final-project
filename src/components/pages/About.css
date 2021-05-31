@@ -3,6 +3,8 @@
 .about-container {
     padding: 20px;
     position: relative;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
     
 }
   

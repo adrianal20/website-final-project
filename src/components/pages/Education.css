@@ -1,19 +1,39 @@
 .education-container {
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 20% 70%;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    grid-template-columns: 35% 70%;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.1em;
+    justify-content: center;
 
 }
-.scoala-logo {
-    width: 50px;
-    height: 50px;
-}
+
 
 .education-left {
-    background: turquoise;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+    
 }
 
 .education-right {
-    background: tomato;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.title {
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
 }

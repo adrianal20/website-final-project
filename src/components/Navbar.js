@@ -56,7 +56,7 @@ function Navbar() {
                         <Link to='/education' className='nav-links' onClick={closeMbileMenu}>
                             Education <i className='fas fa-caret-down' />
                         </Link>
-                        {dropdown && <Dropdown />}
+                      
                     </li>
 
                     <li className='nav-item'>
