@@ -1,0 +1,135 @@
+
+
+#contact-me {
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+
+    display: flex;
+    
+
+    backdrop-filter: blur(15px);
+    border: 0.5px  rgb(191, 127, 228)
+
+
+}
+
+.contact-info {
+    border-radius: 15px;
+    padding: 40px;
+    background-color:rgb(114, 114, 206);
+    flex: 0 1 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.h4-inf {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+
+
+}
+
+p .p-text {
+    font-size: 1.5rem;
+    color:tomato;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    
+
+}
+
+.icon-text {
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.icon {
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    flex: 0 0 40px;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+
+.span-text {
+    color:darkblue;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.social-media {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+   
+
+}
+
+.icon-circle {
+    flex: 1 1 40%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    justify-content: space-evenly;
+}
+input {
+    height: 35px;
+    border: none;
+    background: rgba(255, 255, 255, .2 );
+
+
+}
+
+textarea {
+    height: 200px;
+    background: rgba(255, 255, 255, .2 );
+    border:none;
+}
+
+  .fname, .lname, .subject {
+      font-size: 18px;
+
+      font-weight: 500;
+  }
+
+.submit {
+    background-color: rgb(114, 114, 206);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 550;
+    width: 100%;
+    
+    
+    border-radius: 20px;
+}
