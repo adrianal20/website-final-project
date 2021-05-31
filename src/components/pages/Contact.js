@@ -1,10 +1,26 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
+
 //import '../../App.css';
 import './Contact.css';
 import { FaPhoneAlt, FaMapMarker, FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 export default function Contact() {
+
+  function sendEmail (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_goqjmt5', 'template_id1yv4i', e.target,  'user_jzuYjCXGmyWQdEyOm68nT')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
+
   return (
     <div className='contact-me' id="contact-me"> 
 
@@ -51,20 +67,22 @@ export default function Contact() {
            </div>
             </div>
      
-           <form className="form-container">
+           <form className="form-container" onSubmit={sendEmail}>
 
 
-               <label className="fname"> First Name</label>
-                    <input type="text" placeholder="Your first name.."></input>
+               <label className="fname"> Name</label>
+                    <input type="text" placeholder="Your name.." name="name" ></input>
 
-                <label className="lname">Last Name</label>
-                     <input type="text" placeholder="Your last name.."></input>
+                <label className="lname"> Email </label>
+                     <input type="email" placeholder="Your email.." name="email"></input>
+              
+                <label className="fname"> Subject </label>
+                    <input type="text" placeholder="Subject.." name="subject" ></input>
 
+               <label className="subject"> Message </label>
+                       <textarea className="textarea-subject" name="message"></textarea>
 
-               <label className="subject">Subject</label>
-                       <textarea className="textarea-subject"></textarea>
-
-                <input type="submit" className="submit"></input>
+                <input type="submit" className="submit" value="Send Message"></input>
           </form>
   </div>
   </div>         
