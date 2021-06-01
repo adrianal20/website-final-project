@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 .home, .contact-me, .about, .professional, .education, .sign-up {
@@ -91,12 +92,12 @@ a {
   }
 
 span {
-    color: crimson;
+    color: DodgerBlue;
 
   }
 
 .next {
-    background-color: crimson;
+    background-color: DodgerBlue;
     color: white;
     border-radius: 10px;
     font-size: 25px;
@@ -107,7 +108,7 @@ span {
 
   
 .next:hover {
-    background-color: #ddd;
+    background-color: rgb(114, 114, 206);
     color: black;
   }
   
@@ -136,3 +137,12 @@ p {
 }*/
 
 
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}

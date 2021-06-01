@@ -13,7 +13,7 @@ export default function Home() {
       showCursor: true,
       backdelay: 1500,
       backSpeed: 60,
-      strings: ["Web Developer", "Content Creator"],
+      strings: ["Web Developer", "Content Creator", "Web Designer"],
     })
   },[]);
 
